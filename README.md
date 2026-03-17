@@ -1,4 +1,4 @@
-# ChatGLM-6B 微调项目 - 新媒体文本分类与信息抽取
+# ChatGLM-6B 微调项目 - 电商文本分类与信息抽取
 
 基于 ChatGLM-6B 大语言模型的微调项目，专注于新媒体领域的文本分类、信息抽取和数据分析任务。采用 LoRA 和 Prompt Tuning（P-tuning）两种主流微调方法，实现高效的模型适配。
 
@@ -308,5 +308,3 @@ response2 = engine.infer("为什么？", "", session_id=session_id)
 - [Transformers](https://github.com/huggingface/transformers) - Hugging Face
 
 ---
-
-**作者备注**：本项目为大模型微调实践的完整示例，适用于面试准备、技术验证和教学演示。如需进一步性能优化，可探索 DeepSpeed ZeRO、Flash Attention 等高级特性。
